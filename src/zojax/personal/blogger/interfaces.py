@@ -20,7 +20,7 @@ from zope.i18nmessageid import MessageFactory
 from zojax.content.space.interfaces import IWorkspace
 from zojax.blogger.interfaces import IBlog, IBlogPost, IBloggerWorkspaceFactory
 
-_ = MessageFactory('zojax.content.space')
+_ = MessageFactory('zojax.personal.blogger')
 
 
 class IPersonalBlogWorkspace(IBlog, IWorkspace):
